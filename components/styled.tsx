@@ -83,6 +83,7 @@ export const QuoteGeneratorInnerCon = styled.div`
   transform: translate(-50%, -50%);
   position: absolute;
   width: 100%;
+  height: auto;
 `;
 
 export const QuoteGeneratorTitle = styled.div`
@@ -126,7 +127,7 @@ export const GenerateQuoteButton = styled.div`
   position: relative;
   transition: 0.2s all ease-in-out;
   cursor: pointer;
-  top: 20px;
+  top: 40px;
   margin: auto;
   transform-origin: center;
 
